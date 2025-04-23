@@ -32,7 +32,7 @@ class DashboardActivity : AppCompatActivity() {
         val communityChatsCard = findViewById<CardView>(R.id.communityChatsCard)
 
         sgpaCalculatorCard.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, SGPACalculatorActivity::class.java))
         }
 
         noticeBoardCard.setOnClickListener {
