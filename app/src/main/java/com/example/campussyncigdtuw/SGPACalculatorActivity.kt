@@ -138,6 +138,7 @@ fun CGPA() {
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SubjectInputField(subject: SubjectInput, mode: String, onValueChange: (SubjectInput) -> Unit) {
     Column(modifier = Modifier.fillMaxWidth()) {

@@ -28,7 +28,7 @@ class DashboardActivity : AppCompatActivity() {
         // Set up card click listeners
         val sgpaCalculatorCard = findViewById<CardView>(R.id.sgpaCalculatorCard)
         val noticeBoardCard = findViewById<CardView>(R.id.noticeBoardCard)
-        val eventPlannerCard = findViewById<CardView>(R.id.eventPlannerCard)
+        val timeTableCard = findViewById<CardView>(R.id.timeTableCard)
         val communityChatsCard = findViewById<CardView>(R.id.communityChatsCard)
 
         sgpaCalculatorCard.setOnClickListener {
@@ -36,11 +36,11 @@ class DashboardActivity : AppCompatActivity() {
         }
 
         noticeBoardCard.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, NoticeBoardActivity::class.java))
         }
 
-        eventPlannerCard.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+        timeTableCard.setOnClickListener {
+            startActivity(Intent(this, TimeTableActivity::class.java))
         }
 
         communityChatsCard.setOnClickListener {

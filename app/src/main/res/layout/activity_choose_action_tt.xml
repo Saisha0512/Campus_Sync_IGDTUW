@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/choose_action_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Choose Action"
+        android:textColor="#009688"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/choose_action_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Select whether you want to upload or view the timetable."
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/button_upload_timetable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DC5088"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Upload Timetable"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        android:id="@+id/button_view_timetable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DC5088"
+        android:fontFamily="@font/jacques_francois"
+        android:text="View Timetable"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>

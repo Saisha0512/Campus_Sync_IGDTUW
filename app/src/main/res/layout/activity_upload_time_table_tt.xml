@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text_upload_timetable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Upload Timetable"
+            android:textColor="#8BC34A"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edit_period"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#6200EE"
+            android:fontFamily="@font/jacques_francois"
+            android:hint="Enter Period" />
+
+
+        <EditText
+            android:id="@+id/edit_faculty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#DC5088"
+            android:fontFamily="@font/jacques_francois"
+            android:hint="Enter Faculty Name" />
+
+
+        <EditText
+            android:id="@+id/edit_topic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#DC5088"
+            android:fontFamily="@font/jacques_francois"
+            android:hint="Enter Topic" />
+
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="#DC5088"
+            android:fontFamily="@font/jacques_francois"
+            android:text="Save"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

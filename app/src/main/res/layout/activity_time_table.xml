@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/text_select_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Select Your Class"
+            android:textColor="#009688"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/select_class_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/jacques_francois"
+            android:text="Choose a class to proceed."
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/button_cse1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="CSE 1"
+            android:backgroundTint="#DC5088"
+            android:background="@drawable/roundstyle"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/button_cse2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundstyle"
+            android:layout_marginBottom="8dp"
+            android:text="CSE 2"
+            android:backgroundTint="#DC5088"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/button_cse3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundstyle"
+            android:layout_marginBottom="8dp"
+            android:text="CSE 3"
+            android:backgroundTint="#DC5088"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/button_cse_ai1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundstyle"
+            android:layout_marginBottom="8dp"
+            android:text="CSE AI 1"
+            android:backgroundTint="#DC5088"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/button_cse_ai2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="CSE AI 2"
+            android:backgroundTint="#DC5088"
+            android:background="@drawable/roundstyle"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/button_cse_ai3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="CSE AI 3"
+            android:backgroundTint="#DC5088"
+            android:background="@drawable/roundstyle"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/button_ai_ml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="AI-ML"
+            android:backgroundTint="#DC5088"
+            android:background="@drawable/roundstyle"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/button_ece1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="ECE 1"
+            android:backgroundTint="#DC5088"
+            android:background="@drawable/roundstyle"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+            android:id="@+id/button_ece2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="ECE 2"
+            android:backgroundTint="#DC5088"
+            android:background="@drawable/roundstyle"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+</ScrollView>

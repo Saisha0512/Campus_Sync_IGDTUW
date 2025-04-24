@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -38,6 +39,7 @@ android {
         viewBinding = true
         compose = true
     }
+
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.7" // Use the latest version of Compose
     }
@@ -62,4 +64,11 @@ dependencies {
     implementation(libs.activity.compose)
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.compose.ui.tooling)
+
+    //Ritisha
+    // implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation (platform("com.google.firebase:firebase-bom:32.2.0"))
+    implementation ("com.google.firebase:firebase-firestore")
+    implementation( "androidx.activity:activity-ktx:1.7.0" )
 }

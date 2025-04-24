@@ -13,15 +13,31 @@
         android:theme="@style/Theme.CampusSyncIGDTUW"
         tools:targetApi="31">
         <activity
+            android:name=".ViewNoticeActivity" />
+        <activity
+            android:name=".AddNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeBoardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UploadTimeTableTTActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DailyScheduleTTActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectDayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseActionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TimeTableActivity"
+            android:exported="false" />
+        <activity
             android:name=".SGPACalculatorActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.CampusSyncIGDTUW">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".ProfileActivity"
             android:exported="false" />
@@ -46,6 +62,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+
 
         <meta-data
             android:name="preloaded_fonts"

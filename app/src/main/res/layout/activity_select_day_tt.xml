@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/text_select_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Select a Day"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_monday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DC5088"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Monday"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/button_tuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DC5088"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Tuesday"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/button_wednesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DC5088"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Wednesday"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/button_thursday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DC5088"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Thursday"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/button_friday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DC5088"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Friday"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/button_saturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DC5088"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Saturday"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/button_sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DC5088"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Sunday"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

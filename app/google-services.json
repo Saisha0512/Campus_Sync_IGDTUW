@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "533763553155",
+    "project_id": "campussyncigdtuw",
+    "storage_bucket": "campussyncigdtuw.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533763553155:android:4b55dc7bd158f9b46d68b6",
+        "android_client_info": {
+          "package_name": "com.example.campussyncigdtuw"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoNlQAUnCh-da5_-3P-mH_GBdZvkmPCuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

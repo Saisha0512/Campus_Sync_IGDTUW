@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+
+    <TextView
+        android:id="@+id/text_timetable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Timetable"
+        android:textColor="#DC5088"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/text_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:text="No data available"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/timetable_recycler_view"
+        android:layout_width="372dp"
+        android:layout_height="590dp"
+        tools:listitem="@layout/activity_schedule_item_tt" />
+
+
+    <Button
+        android:id="@+id/button_update_timetable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#DC5088"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Update Timetable"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
