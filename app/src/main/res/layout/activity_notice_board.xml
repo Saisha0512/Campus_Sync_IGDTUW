@@ -15,7 +15,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="wrap_content"
         android:background="#DC5088"
         android:titleTextColor="@color/white"
         android:elevation="4dp"
@@ -41,7 +41,8 @@
             android:fontFamily="@font/abril_fatface"
             android:text="NOTICE BOARD"
             android:textColor="@color/black"
-            android:textSize="35sp"
+            android:textSize="24sp"
+            android:layout_gravity="center"
             android:textStyle="bold"/>
     </androidx.appcompat.widget.Toolbar>
 
@@ -53,7 +54,7 @@
     <ImageView
         android:id="@+id/campus_sync_logo"
         android:layout_width="match_parent"
-        android:layout_height="280dp"
+        android:layout_height="195dp"
         android:background="@drawable/roundstyle_black"
         android:contentDescription="Campus Logo"
         android:scaleType="fitCenter"
@@ -63,7 +64,7 @@
     <LinearLayout
         android:background="@drawable/splash_background"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginTop="30dp"
         android:orientation="vertical"
         android:gravity="center_horizontal">

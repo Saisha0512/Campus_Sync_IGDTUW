@@ -3,7 +3,6 @@ package com.example.campussyncigdtuw
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
@@ -29,7 +28,7 @@ class DashboardActivity : AppCompatActivity() {
         val sgpaCalculatorCard = findViewById<CardView>(R.id.sgpaCalculatorCard)
         val noticeBoardCard = findViewById<CardView>(R.id.noticeBoardCard)
         val timeTableCard = findViewById<CardView>(R.id.timeTableCard)
-        val communityChatsCard = findViewById<CardView>(R.id.communityChatsCard)
+        val updateProfileCard = findViewById<CardView>(R.id.updateProfileCard)
 
         sgpaCalculatorCard.setOnClickListener {
             startActivity(Intent(this, SGPACalculatorActivity::class.java))
@@ -43,17 +42,8 @@ class DashboardActivity : AppCompatActivity() {
             startActivity(Intent(this, TimeTableActivity::class.java))
         }
 
-        communityChatsCard.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
-        }
-
-        // Profile button logic
-        val profileButton = findViewById<ImageButton>(R.id.profile)
-        profileButton.setOnClickListener {
-            val intent = Intent(this, ProfileActivity::class.java)
-            // Pass the username to ProfileActivity if needed
-            intent.putExtra("username", username)
-            startActivity(intent)
+        updateProfileCard.setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
         }
     }
 }

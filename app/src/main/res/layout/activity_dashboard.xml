@@ -30,17 +30,6 @@
             android:textColor="@color/black"
             android:textSize="24sp" />
 
-        <ImageButton
-            android:id="@+id/profile"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/profile_pic"
-            android:layout_gravity="end"
-            android:padding="5dp"
-            android:scaleType="centerInside"
-            android:contentDescription="Profile"
-            android:background="@android:color/transparent" />
-
     </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
@@ -63,9 +52,9 @@
 
         <ImageView
             android:id="@+id/logo_image"
-            android:layout_width="240dp"
-            android:layout_height="195dp"
-            android:layout_gravity="bottom|center_horizontal"
+            android:layout_width="230dp"
+            android:layout_height="185dp"
+            android:layout_gravity="center"
             android:src="@drawable/campus_sync_logo" />
 
     </LinearLayout>
@@ -128,7 +117,7 @@
                         android:layout_height="wrap_content"
                         android:text="SGPA Calculator"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="15sp"
                         android:textAlignment="center"
                         android:fontFamily="@font/jacques_francois"/>
 
@@ -231,7 +220,7 @@
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
-                android:id="@+id/communityChatsCard"
+                android:id="@+id/updateProfileCard"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
@@ -255,7 +244,7 @@
                         android:layout_height="70dp"
                         android:layout_weight="8"
                         android:layout_gravity="center"
-                        android:src="@drawable/chatting" />
+                        android:src="@drawable/profile_dashboard" />
 
                     <!-- This is the grey divider line -->
                     <View
@@ -268,7 +257,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Community Chats"
+                        android:text="Update Profile"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textAlignment="center"

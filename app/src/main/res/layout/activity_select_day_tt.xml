@@ -15,7 +15,7 @@
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/abril_fatface"
         android:text="Select a Day"
-        android:textColor="#3F51B5"
+        android:textColor="#8BC34A"
         android:textSize="34sp"
         android:textStyle="bold" />
 
