@@ -30,6 +30,8 @@ Students often face issues managing academic resources spread across various pla
 ### 1. Login & Signup 🔐
 - User authentication using email/password.
 - SharedPreferences used for persistent login state.
+- ![image](https://github.com/user-attachments/assets/30d16158-3fd2-4335-9299-c222957f6608) 		![image](https://github.com/user-attachments/assets/f01fe28a-7085-47ae-93a6-4af353c2a4b8)
+
 
 ### 2. Dashboard 🏠 
 - Personalized greeting.
@@ -94,7 +96,8 @@ RecyclerView Display with Animations
 ## 📷 SCREENSHOTS
 
       Login Activity	             				                                                                         Signup Activity
-			![image](https://github.com/user-attachments/assets/05b0b219-58fa-46f2-847e-a114915ab499)
+
+
 
 
 
